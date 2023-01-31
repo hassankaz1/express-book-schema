@@ -1,0 +1,85 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "isbn",
+        "amazon_url",
+        "author",
+        "language",
+        "pages",
+        "publisher",
+        "title"
+    ],
+    "properties": {
+        "isbn": {
+            "type": "string",
+            "default": "",
+            "title": "The isbn Schema",
+            "examples": [
+                "9781593279509"
+            ]
+        },
+        "amazon_url": {
+            "type": "string",
+            "default": "",
+            "title": "The amazon_url Schema",
+            "examples": [
+                "https://www.amazon.com/Eloquent-JavaScript-3rd-Introduction-Programming/dp/1593279507/ref=asc_df_1593279507/?tag=hyprod-20\u0026linkCode=df0\u0026hvadid=266029226349\u0026hvpos=\u0026hvnetw=g\u0026hvrand=17281673323566203893\u0026hvpone=\u0026hvptwo=\u0026hvqmt=\u0026hvdev=c\u0026hvdvcmdl=\u0026hvlocint=\u0026hvlocphy=1022987\u0026hvtargid=pla-548660160165\u0026psc=1\u0026region_id=373786"
+            ]
+        },
+        "author": {
+            "type": "string",
+            "default": "",
+            "title": "The author Schema",
+            "examples": [
+                "Marijn Haverbeke"
+            ]
+        },
+        "language": {
+            "type": "string",
+            "default": "",
+            "title": "The language Schema",
+            "examples": [
+                "english"
+            ]
+        },
+        "pages": {
+            "type": "integer",
+            "default": 0,
+            "title": "The pages Schema",
+            "examples": [
+                472
+            ]
+        },
+        "publisher": {
+            "type": "string",
+            "default": "",
+            "title": "The publisher Schema",
+            "examples": [
+                "No Starch Press"
+            ]
+        },
+        "title": {
+            "type": "string",
+            "default": "",
+            "title": "The title Schema",
+            "examples": [
+                "Eloquent JavaScript, Third Edition"
+            ]
+        }
+    },
+    "examples": [
+        {
+            "isbn": "9781593279509",
+            "amazon_url": "https://www.amazon.com/Eloquent-JavaScript-3rd-Introduction-Programming/dp/1593279507/ref=asc_df_1593279507/?tag=hyprod-20\u0026linkCode=df0\u0026hvadid=266029226349\u0026hvpos=\u0026hvnetw=g\u0026hvrand=17281673323566203893\u0026hvpone=\u0026hvptwo=\u0026hvqmt=\u0026hvdev=c\u0026hvdvcmdl=\u0026hvlocint=\u0026hvlocphy=1022987\u0026hvtargid=pla-548660160165\u0026psc=1\u0026region_id=373786",
+            "author": "Marijn Haverbeke",
+            "language": "english",
+            "pages": 472,
+            "publisher": "No Starch Press",
+            "title": "Eloquent JavaScript, Third Edition"
+        }
+    ]
+}
